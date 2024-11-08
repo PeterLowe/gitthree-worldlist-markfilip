@@ -105,7 +105,7 @@ int main()
 		}
 
 	}
-	if (letter == 'y' || letter == 'Y')
+	if (letter == 'y' || letter == 'Y') //written by Filip
 	{
 		if (region == 1)
 		{
@@ -128,7 +128,7 @@ int main()
 			std::cout << "There are no Ys in rest of the world" << std::endl;
 		}
 	}
-	if (letter == 'x' || letter == 'X')
+	if (letter == 'x' || letter == 'X') //written by Filip
 	{
 		if (region == 1)
 		{

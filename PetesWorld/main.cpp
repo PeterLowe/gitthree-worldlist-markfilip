@@ -1,7 +1,12 @@
 // program to find countries in Pete's World
 // 08/11/2024
 // author Pete Lowe
+<<<<<<< HEAD
 // Mark Shatalov
+=======
+// Filip Svantner
+//  or here
+>>>>>>> 3e0e5ff2afd5060e35161978e21a518b78303890
 // estimated time 120 minutes
 // actual time ??
 // version 1.0

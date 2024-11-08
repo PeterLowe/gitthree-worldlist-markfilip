@@ -24,7 +24,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to B or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or Y to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -102,6 +102,30 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no Bs in rest of the world" << std::endl;
+		}
+
+	}
+	if (letter == 'c' || letter == 'C') // written by Mark
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Cayman Islands, Colombia, Costa Rica, Cuba, Chile " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Cyprus, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Côte D'ivoire, Comoros, Democratic Republic of Congo(Kinshasa), Congo Republic of (Brazzaville" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia , China, Christmas Island, Cocos (Keeling) Islands" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cook Islands" << std::endl;
 		}
 
 	}

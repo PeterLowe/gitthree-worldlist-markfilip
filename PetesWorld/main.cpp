@@ -24,7 +24,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to C or X to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -117,7 +117,7 @@ int main()
 		}
 		if (region == 3)
 		{
-			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Côte D'ivoire, Comoros, Democratic Republic of Congo(Kinshasa), Congo Republic of (Brazzaville" << std::endl;
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, CÃ´te D'ivoire, Comoros, Democratic Republic of Congo(Kinshasa), Congo Republic of (Brazzaville" << std::endl;
 		}
 		if (region == 4)
 		{

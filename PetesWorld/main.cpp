@@ -1,12 +1,9 @@
 // program to find countries in Pete's World
 // 08/11/2024
 // author Pete Lowe
-<<<<<<< HEAD
 // Mark Shatalov
-=======
 // Filip Svantner
 //  or here
->>>>>>> 3e0e5ff2afd5060e35161978e21a518b78303890
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -26,7 +23,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or Z to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -83,8 +80,36 @@ int main()
 		}
 
 	}
+	if (letter == 'b' || letter == 'B') // written by Mark
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Belize, Bermuda, Bolivia, Brazil, Barbados" << std::endl; 
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Bs in rest of the world" << std::endl;
+		}
+
+	}
+
+
 	
-	
+
+
+
 	
 	return 1;
 }
